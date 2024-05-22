@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #f6f6f6;
+}
+
+::-webkit-scrollbar {
+    background-color: #f6f6f6;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #21A366;
+    border-radius: 20px;
+}
+
+#logo {
+    width: 4rem;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background-color: #21A366;
+    color: #f6f6f6;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #28694a;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+    gap: 2rem;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    color: #fff;
+    font-weight: 600;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 54rem;
+    background-image: url(../src/fundo/estacao.png);
+    background-repeat: round;
+}
+
+.inicio h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.inicio a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    border-radius: 25px;
+    width: 25rem;
+    height: 5rem;
+    background-color: #21A366;
+    font-weight: 800;
+}
+
+.inicio a:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.quem {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.quem img {
+    width: 40rem;
+    border-radius: 0px 100px 50px 100px;
+}
+
+.texto-quem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 3.5rem;
+    text-align: justify;
+    width: 40rem;
+}
+
+.texto-quem h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.ambiente {
+    background-color: #28694a;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e8e8e8;
+    padding: 3rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+.folha-nuvem {
+    position: relative;
+}
+
+#folha-esquerda-cima {
+    width: 9rem;
+    position: absolute;
+    left: 0px;
+    bottom: 70rem;
+}
+
+#folha-esquerda-baixo {
+    width: 8rem;
+    position: absolute;
+    left: 0px;
+    bottom: 51.6rem;
+}
+
+#folha-direita-cima {
+    width: 9rem;
+    position: absolute;
+    right: 0px;
+    bottom: 69.2rem;
+}
+
+#folha-direita-baixo {
+    width: 9rem;
+    position: absolute;
+    right: 0px;
+    bottom: 51.4rem;
+}
+
+.ambiente h3 {
+    font-weight: 650;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ambiente p {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+
+.materiais {
+    width: 100%;
+    height: 58rem;
+    background-image: url(../src/fundo/Rectangle\ 43.png);
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.materiais h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+}
+
+.materiais-itens {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.materiais-itens p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 28px;
+}
+
+.icons-materiais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    width: 15rem;
+    height: 15rem;
+    background-color: #fff;
+    border: solid 5px #1F8DCD;
+    z-index: 1;
+}
+
+.icons-materiais img {
+    width: 10rem;
+}
+
+#caixa {
+    width: 11rem;
+}
+
+#garrafa {
+    width: 12rem;
+}
+
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#nuvem1 {
+    position: absolute;
+    left: 0px;
+}
+
+#nuvem2 {
+    position: absolute;
+    left: 10rem;
+    bottom: 11rem;
+}
+
+#nuvem3 {
+    position: absolute;
+    right: 11rem;
+}
+
+#nuvem4 {
+    position: absolute;
+    right: 0;
+    bottom: 3rem;
+}
+
+.indefinido {
+    width: 100%;
+    height: 58rem;
+}
+
+.agua {
+    background-image: url(../src/fundo/agua.png);
+    background-repeat: round;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agua h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 5rem;
+}
+
+.agua p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato {
+    height: 16rem;
+    width: 50%;
+    background-color: #21A366;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+
+.contato h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 2.5rem;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos img {
+    width: 3rem;
+}
+
+.contatos img:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+    font-weight: 600;
+}
+
+#email {
+    width: 3.5rem;
+}
+
+
+.recicle {
+    height: 16rem;
+    width: 50%;
+    background-color: #28694a;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+#titulo-recicle {
+    display: flex;
+    justify-content: center;
+}
+
+.recicle h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 2.5rem;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 14rem;
+}
+
+.endereco p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.endereco img {
+    width: 4rem;
+}
+
+.endereco p:hover {
+    color: #f8d510;
+}
+
+#folha5 {
+    width: 10rem;
+    position: absolute;
+    left: 0;
+    bottom: 11rem;
+}
+
+#folha6 {
+    width: 10rem;
+    position: absolute;
+    right: 0;
+    bottom: 11rem;
+}

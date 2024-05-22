@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Reciclar</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="shortcut icon" href="./src/icons/logol.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,31 +18,122 @@
 <body>
     <header>
         <div class="cabecalho">
-            <img id="logo" src="./src/icone-marvel3 (2).png" alt="logo projeto reciclar">
+            <img id="logo" src="./src/icons/logol.png" alt="logo projeto reciclar">
             <h1>PROJETO RECICLAR</h1>
         </div>
         <nav>
             <a href="#quem">Quem somos?</a>
-            <a href="">Materiais</a>
+            <a href="#materiais">Materiais</a>
             <a href="">Contato</a>
         </nav>
     </header>
     <main class="inicio">
         <h2>Contribua com o <br> <span style="color: #21A366;">Projeto Reciclar</span></h2>
-        <a href="">Recicle Agora!</a>
+        <a href="https://maps.app.goo.gl/EnzVQgPKzck1uDdi8" target="_blank">Recicle Agora!</a>
 
     </main>
-    <section id="quem" class="quem">
-        <img src="./src/fundo/quem somos.png" alt="Quem somos">
-        <div class="texto-quem">
-            <h3>Quem Somos?</h3>
-            <p>O Projeto Reciclar atua desde 2014 na coleta de materiais reciclados de grandes empresas, restaurantes, escolas, clubes, pizzarias e buffets; dando assim seu destino correto e diminuindo a poluição do nosso precioso meio ambiente.</p>
-        </div>
+    <div class="folha-nuvem">
+        <section id="quem" class="quem">
+            <img src="./src/fundo/quem somos.png" alt="Quem somos">
+            <div class="texto-quem">
+                <h3>Quem Somos?</h3>
+                <p>O Projeto Reciclar atua desde 2014 na coleta de materiais reciclados de grandes empresas,
+                    restaurantes,
+                    escolas, clubes, pizzarias e buffets; dando assim seu destino correto e diminuindo a poluição do
+                    nosso
+                    precioso meio ambiente.</p>
+            </div>
+        </section>
+        <section class="ambiente">
+            <img id="folha-esquerda-cima" src="./src/icons/esquerda-cima.png" alt="Folha">
+            <img id="folha-esquerda-baixo" src="./src/icons/esquerda-baixo.png" alt="Folha">
+            <img id="folha-direita-cima" src="./src/icons/direita-cima.png" alt="Folha">
+            <img id="folha-direita-baixo" src="./src/icons/direita-baixo.png" alt="Folha">
+            <h3>O nosso planeta precisa de você !</h3>
+            <p>Todos os dias são descartados toneladas de lixo em lugares inadequados, causando sérios danos à nossa
+                fauna, flora e saúde humana. Precisamos agir agora para reduzir o impacto ambiental, adotando práticas
+                de reciclagem e descarte responsável. <br>Vamos fazer a nossa parte para preservar o planeta!</p>
+        </section>
+
+        <section id="materiais" class="materiais">
+            <img id="nuvem1" src="./src/icons/nuvem1.png" alt="Nuvem">
+            <img id="nuvem2" src="./src/icons/nuvem2.png" alt="Nuvem">
+            <img id="nuvem3" src="./src/icons/nuvem3.png" alt="Nuvem">
+            <img id="nuvem4" src="./src/icons/nuvem4.png" alt="Nuvem">
+            <h3>Recebemos materiais como:</h3>
+            <div class="materiais-itens">
+                <div class="itens">
+                    <div class="icons-materiais"><img id="caixa" src="./src/icons/caixa 1.png" alt="Caixas de papelão">
+                    </div>
+                    <p>Papelão</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img id="garrafa" src="./src/icons/garrafa-de-plastico 1.png"
+                            alt="Plásticos"></div>
+                    <p>Plásticos</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/aco 1.png" alt="Metais"></div>
+                    <p>Metais</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/tela-quebrada 1.png" alt="Eletrônicos"></div>
+                    <p>Eletrônicos</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/papel 2.png" alt="Papéis"></div>
+                    <p>Papéis</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/gota-de-liquido 1.png" alt="Óleo"></div>
+                    <p>Óleo</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/vidro-quebrado 1.png" alt="Vidros"></div>
+                    <p>Vidros</p>
+                </div>
+                <div class="itens">
+                    <div class="icons-materiais"><img src="./src/icons/bateria 1.png" alt="Baterias"></div>
+                    <p>Baterias</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="indefinido">
     </section>
-    <section class="ambiente">
-        <h3>O nosso planeta precisa de você !</h3>
-        <p>Todos os dias são descartadas toneladas de lixo em lugares inadequados. Isso pode <br> causar danos irreversíveis ao nosso meio ambiente.</p>
-    </section>
+    <div class="folha-nuvem">
+        <section class="agua">
+            <h3>A água é o nosso bem mais valioso...</h3>
+            <p>Ao chegar nos rios, o lixo provoca um grande desequilíbrio ambiental, representando uma grande ameaça à
+                vida aquática, <br> além de contaminar a água utilizada para consumo humano, a tornando cheia de
+                doenças. <br> Recicle conosco e nos ajude a parar isso!</p>
+        </section>
+        <footer>
+            <img id="folha5" src="./src/icons/esquerda-cima.png" alt="Folha">
+            <img id="folha6" src="./src/icons/direita-cima.png" alt="Folha">
+            <div class="contato">
+                <h3>Fale conosco</h3>
+                <div class="contatos">
+                    <a target="_blank" href="tel:+55 011 97752-2043"><img src="./src/icons/whatsapp 1.png"
+                            alt="Logo Whatsapp"></a>
+                    <a target="_blank" href="https://www.instagram.com/wilsonjosesouza?igsh=bThnam5rdGtjemc5"><img
+                            src="./src/icons/instagram 1.png" alt="Logo Instagram"></a>
+                    <a target="_blank" href="mailto:projetoreciclar.eco@gmail.com"><img id="email"
+                            src="./src/icons/email.png" alt="Logo Email"></a>
+                </div>
+            </div>
+            <div class="recicle">
+                <div id="titulo-recicle">
+                    <h3>Recicle agora</h3>
+                </div>
+                <a class="endereco" href="https://maps.app.goo.gl/EnzVQgPKzck1uDdi8" target="_blank">
+                    <img src="./src/icons/localizacao.png" alt="Logo Localização">
+                    <p>R. Vaud, 205 - Lauzane Paulista <br>
+                        São Paulo, SP, 02443-060</p>
+                </a>
+            </div>
+        </footer>
+    </div>
 
 </body>
 
