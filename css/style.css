@@ -139,36 +139,36 @@ nav a:hover {
 }
 
 
-/* .folha-nuvem {
+.folha-nuvem {
     position: relative;
-} */
+}
 
 #folha-esquerda-cima {
     width: 9rem;
     position: absolute;
     left: 0px;
-    top: 98rem;
+    top: 36.6rem;
 }
 
 #folha-esquerda-baixo {
     width: 8rem;
     position: absolute;
     left: 0px;
-    top: 118.5rem;
+    top: 57.2rem;
 }
 
 #folha-direita-cima {
     width: 9rem;
     position: absolute;
     right: 0px;
-    top: 98.5rem;
+    top: 37.3rem;
 }
 
 #folha-direita-baixo {
     width: 9rem;
     position: absolute;
-    right: 0px;
-    top: 116.5rem;
+    right: 0;
+    bottom: 150.5rem;
 }
 
 .ambiente h3 {
