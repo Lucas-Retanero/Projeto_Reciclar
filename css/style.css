@@ -95,6 +95,8 @@ nav a:hover {
 }
 
 .quem {
+    height: 43rem;
+    width: 100%;
     padding-top: 6.5rem;
     padding-bottom: 6.5rem;
     display: flex;
@@ -102,6 +104,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    padding: 3rem;
 }
 
 .quem img {
@@ -125,6 +128,10 @@ nav a:hover {
     text-transform: uppercase;
 }
 
+.folha-nuvem {
+    position: relative;
+}
+
 .ambiente {
     background-color: #28694a;
     height: 18rem;
@@ -138,9 +145,16 @@ nav a:hover {
     gap: 2rem;
 }
 
+.ambiente h3 {
+    font-weight: 650;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
 
-.folha-nuvem {
-    position: relative;
+.ambiente p {
+    font-size: 27px;
+    font-weight: 400;
 }
 
 #folha-esquerda-cima {
@@ -168,22 +182,8 @@ nav a:hover {
     width: 9rem;
     position: absolute;
     right: 0;
-    bottom: 150.5rem;
+    top: 55.5rem;
 }
-
-.ambiente h3 {
-    font-weight: 650;
-    color: #fff;
-    font-size: 35px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.ambiente p {
-    font-size: 27px;
-    font-weight: 400;
-}
-
 
 .materiais {
     width: 100%;
@@ -256,18 +256,18 @@ nav a:hover {
 #nuvem2 {
     position: absolute;
     left: 10rem;
-    bottom: 110rem;
+    top: 89rem;
 }
 
 #nuvem3 {
     position: absolute;
-    right: 11rem;
+    right: 10rem;
 }
 
 #nuvem4 {
     position: absolute;
     right: 0;
-    bottom: 103rem;
+    top: 96rem;
 }
 
 .indefinido {
@@ -356,6 +356,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
+    align-items: center;
 }
 
 #titulo-recicle {
@@ -374,7 +375,6 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 14rem;
 }
 
 .endereco p {
@@ -422,7 +422,6 @@ footer {
     justify-content: center;
     z-index: 1;
     transition: 0.4s all;
-    /* border: solid 1px #000000; */
 }
 
 .topo img {
@@ -433,5 +432,3 @@ footer {
     right: 20px;
     transition: 0.4s all;
 }
-
-/* #e3be03 */

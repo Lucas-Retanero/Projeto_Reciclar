@@ -1,0 +1,250 @@
+@media screen and (max-width: 415px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    
+
+    .cabecalho {
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #logo {
+        width: 3rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .inicio {
+        background-image: url(../src/fundo/fundo-mobile.png);
+        padding: 1rem;
+    }
+
+    .inicio h2 {
+        font-size: 34px;
+    }
+
+    .inicio a {
+        width: 19rem;
+        font-size: 30px;
+    }
+
+    .quem {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .quem img {
+        width: 20rem;
+        border-radius: 0px 80px 50px 8px;
+    }
+    
+    .texto-quem {
+        font-size: 25px;
+    }
+    
+    .texto-quem h3 {
+        font-size: 2rem;
+    }
+
+    .ambiente {
+        gap: 1rem;
+        padding-top: 10rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 12rem;
+    }
+
+
+    .ambiente h3 {
+        padding-top: 2rem;
+        font-size: 24px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .ambiente p {
+        font-size: 19px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #folha-esquerda-cima {
+        width: 6rem;
+        top: 38.7rem;
+    }
+    
+    #folha-esquerda-baixo {
+        width: 5.1rem;
+        top: 63.5rem;
+    }
+    
+    #folha-direita-cima {
+        width: 6rem;
+        top: 39.2rem;
+    }
+    
+    #folha-direita-baixo {
+        width: 6rem;
+        top: 62.2rem;
+    }
+
+    .materiais {
+        padding-top: 0;
+        height: 63rem;
+    }
+
+    .materiais h3 {
+        font-size: 23px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+
+    .materiais-itens {
+        padding-top: 2rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    
+    .materiais-itens p {
+        font-size: 20px;
+    }
+    
+    .icons-materiais {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .icons-materiais img {
+        width: 5rem;
+    }
+    
+    #caixa {
+        width: 6rem;
+    }
+    
+    #garrafa {
+        width: 6.5rem;
+    }
+    
+    
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 5rem;
+    }
+    
+    #nuvem2 {
+        left: 11.5rem;
+        top: 85rem;
+        width: 8rem;
+    }
+    
+    #nuvem3 {
+        top: 98rem;
+        left: 0rem;
+        width: 8rem;
+    }
+    
+    #nuvem4 {
+        right: 0;
+        top: 115rem;
+        width: 3.5rem;
+    }
+
+    .agua {
+        padding: 1rem;
+        align-items: center;
+    }
+    
+    .agua h3 {
+        font-size: 24px;
+        padding-top: 3rem;
+        text-align: center;
+    }
+    
+    .agua p {
+        font-size: 19px;
+        text-align: center;
+        padding-top: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #folha5 {
+        width: 6rem;
+        left: 0;
+        bottom: 20rem;
+    }
+    
+    #folha6 {
+        width: 6rem;
+        position: absolute;
+        right: 0;
+        bottom: 19.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contato {
+        height: 12rem;
+        padding-top: 1.5em;
+        width: 100%;
+    }
+
+    .contato h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #whatsapp {
+        width: 43px;
+    }
+
+    #instagram {
+        width: 42px;
+    }
+
+    #email {
+        width: 48px;
+    }
+
+    .recicle {
+        height: 12rem;
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    .recicle h3 {
+        font-size: 24px;
+        padding-bottom: 2.5rem;
+    }
+
+    .endereco p {
+        font-size: 18px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .endereco img {
+        width: 3rem;
+    }
+}
