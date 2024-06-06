@@ -45,19 +45,26 @@
     .quem {
         display: flex;
         flex-direction: column-reverse;
+        gap: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 40rem;
     }
     
     .quem img {
         width: 20rem;
-        border-radius: 0px 80px 50px 8px;
+        border-radius: 0px 70px 30px 70px;
     }
     
     .texto-quem {
-        font-size: 25px;
+        font-size: 19px;
+        width: 320px;
+        gap: 2rem;
+        padding-bottom: 0.5rem;
     }
     
     .texto-quem h3 {
-        font-size: 2rem;
+        font-size: 26px;
     }
 
     .ambiente {
@@ -68,12 +75,11 @@
         padding-bottom: 12rem;
     }
 
-
     .ambiente h3 {
         padding-top: 2rem;
         font-size: 24px;
         padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding-right: 2.6rem;
     }
 
     .ambiente p {
@@ -84,22 +90,22 @@
 
     #folha-esquerda-cima {
         width: 6rem;
-        top: 38.7rem;
+        top: 35.8rem;
     }
     
     #folha-esquerda-baixo {
         width: 5.1rem;
-        top: 63.5rem;
+        top: 59.6rem;
     }
     
     #folha-direita-cima {
         width: 6rem;
-        top: 39.2rem;
+        top: 36.2rem;
     }
     
     #folha-direita-baixo {
         width: 6rem;
-        top: 62.2rem;
+        top: 58.3rem;
     }
 
     .materiais {
@@ -109,8 +115,8 @@
 
     .materiais h3 {
         font-size: 23px;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         padding-top: 2rem;
         text-align: center;
     }
