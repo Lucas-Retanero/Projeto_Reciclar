@@ -8,24 +8,64 @@
         display: none;
     }
     
-
     .cabecalho {
         height: 5rem;
         display: flex;
         flex-direction: row;
+        padding-right: 0;
+        padding-left: 1.5rem;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .cabecalho a {
+        display:flex ;
+        align-items: center;
         justify-content: center;
+        height: 5rem;
+        width: 4rem;
+        /* background-color: #28694a; */
     }
 
     #logo {
-        width: 3rem;
+        width: 2.5rem;
     }
 
     .cabecalho h1 {
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .cabecalho a {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .menu img {
+        width: 2rem;
     }
 
     nav {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        font-size: 19px;
         display: none;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .clicado {
+        display: flex;
+    }
+
+    nav a:hover {
+        transform: scale(1);
+        color: #f6f6f6;
+        font-weight: 400;
     }
 
     .inicio {
@@ -119,8 +159,8 @@
 
     .materiais h3 {
         font-size: 23px;
-        padding-left: 3.2rem;
-        padding-right: 2.8rem;
+        padding-left: 3rem;
+        padding-right: 2.5rem;
         padding-top: 2rem;
         text-align: center;
     }
