@@ -6,26 +6,13 @@ function navbar() {
     if (menuMobile.classList.contains('clicado')) {
         menuMobile.classList.remove('clicado');
         document.querySelector('.menu-hamburguer').src = "./src/icons/menu-hamburguer.png"
+        document.querySelector('.menu').classList.remove('fundo-verde');
     } else {
         menuMobile.classList.add('clicado');
         document.querySelector('.menu-hamburguer').src = "./src/icons/x.png"
+        document.querySelector('.menu').classList.add('fundo-verde');
     }
 }
-
-
-
-
-
-
-// const navbar = document.querySelector('.menu').addEventListener('click', function()){
-//     navbar.classList.add('clicado');
-// }
-
-
-
-
-
-
 
 
 

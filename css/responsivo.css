@@ -13,7 +13,7 @@
         display: flex;
         flex-direction: row;
         padding-right: 0;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
         gap: 1rem;
         justify-content: space-between;
     }
@@ -32,7 +32,7 @@
     }
 
     .cabecalho h1 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     .cabecalho a {
@@ -41,6 +41,10 @@
 
     .menu {
         display: inline;
+    }
+
+    .fundo-verde {
+        background-color: #28694a;
     }
 
     .menu img {
