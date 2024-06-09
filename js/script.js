@@ -1,7 +1,7 @@
 // botão menu
 
 function navbar() {
-    let menuMobile = document.querySelector('nav');
+    let menuMobile = document.querySelector('ul');
 
     if (menuMobile.classList.contains('clicado')) {
         menuMobile.classList.remove('clicado');
@@ -28,9 +28,9 @@ function animaScroll() {
     const itemVisivel = topoItem - metadeWindow < 0;
 
     if(itemVisivel) {
-        scrollAnima.classList.add('show-button');
+        scrollAnima.classList.add('mostrar-botao');
     } else {
-        scrollAnima.classList.remove('show-button');
+        scrollAnima.classList.remove('mostrar-botao');
     };
 
 };

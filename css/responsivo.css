@@ -1,13 +1,13 @@
-@media screen and (max-width: 415px) {
+@media (min-width: 0px) and (max-width: 509px) {
 
     ::-webkit-scrollbar {
         display: none;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         display: none;
     }
-    
+
     .cabecalho {
         height: 5rem;
         display: flex;
@@ -19,12 +19,11 @@
     }
 
     .cabecalho a {
-        display:flex ;
+        display: flex;
         align-items: center;
         justify-content: center;
         height: 5rem;
         width: 4rem;
-        /* background-color: #28694a; */
     }
 
     #logo {
@@ -51,7 +50,7 @@
         width: 2rem;
     }
 
-    nav {
+    ul {
         flex-direction: column;
         align-items: center;
         position: absolute;
@@ -66,7 +65,7 @@
         display: flex;
     }
 
-    nav a:hover {
+    ul a:hover {
         transform: scale(1);
         color: #f6f6f6;
         font-weight: 400;
@@ -98,19 +97,19 @@
         padding-bottom: 0;
         height: 40rem;
     }
-    
+
     .quem img {
         width: 20rem;
         border-radius: 0px 70px 30px 70px;
     }
-    
+
     .texto-quem {
         font-size: 19px;
         width: 320px;
         gap: 2rem;
         padding-bottom: 0.5rem;
     }
-    
+
     .texto-quem h3 {
         font-size: 26px;
     }
@@ -140,17 +139,17 @@
         width: 6rem;
         top: 35.8rem;
     }
-    
+
     #folha-esquerda-baixo {
         width: 5.1rem;
         top: 59.6rem;
     }
-    
+
     #folha-direita-cima {
         width: 6rem;
         top: 36.2rem;
     }
-    
+
     #folha-direita-baixo {
         width: 6rem;
         top: 58.3rem;
@@ -175,47 +174,47 @@
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
-    
+
     .materiais-itens p {
         font-size: 20px;
     }
-    
+
     .icons-materiais {
         width: 8rem;
         height: 8rem;
     }
-    
+
     .icons-materiais img {
         width: 5rem;
     }
-    
+
     #caixa {
         width: 6rem;
     }
-    
+
     #garrafa {
         width: 6.5rem;
     }
-    
-    
+
+
     #nuvem1 {
         left: 0px;
         top: 70rem;
         width: 5rem;
     }
-    
+
     #nuvem2 {
         left: 11.5rem;
         top: 85rem;
         width: 8rem;
     }
-    
+
     #nuvem3 {
         top: 98rem;
         left: 0rem;
         width: 8rem;
     }
-    
+
     #nuvem4 {
         right: 0;
         top: 115rem;
@@ -226,19 +225,19 @@
         padding: 1rem;
         align-items: center;
     }
-    
+
     .agua h3 {
         font-size: 24px;
         padding-top: 3rem;
         text-align: center;
     }
-    
+
     .agua p {
         font-size: 19px;
         text-align: center;
         padding-top: 2rem;
         padding-left: 1.5rem;
-        padding-right: 1rem;
+        padding-right: 1.5rem;
     }
 
     #folha5 {
@@ -246,12 +245,16 @@
         left: 0;
         bottom: 20rem;
     }
-    
+
     #folha6 {
-        width: 6rem;
-        position: absolute;
+        display: none;
+    }
+
+    #folha7 {
+        display: block;
+        width: 6.5rem;
         right: 0;
-        bottom: 19.5rem;
+        bottom: 19.6rem;
     }
 
     footer {
@@ -315,7 +318,1147 @@
         width: 40px;
     }
 
-    .show-button .topo {
+    .mostrar-botao .topo {
         right: 10px;
+    }
+}
+
+@media (min-width: 1210px) and (max-width: 1370px) {
+
+    .inicio h2 {
+        font-size: 4rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .quem img {
+        width: 35rem;
+    }
+
+    .texto-quem {
+        font-size: 26px;
+        gap: 3rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 35px;
+        gap: 1rem;
+
+    }
+
+}
+
+
+@media (min-width: 1110px) and (max-width: 1209px) {
+
+    .inicio h2 {
+        font-size: 4rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .quem img {
+        width: 29rem;
+
+    }
+
+    .texto-quem {
+        font-size: 26px;
+        gap: 3rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 35px;
+        gap: 1rem;
+
+    }
+
+    .ambiente h3 {
+        font-size: 30px;
+    }
+
+    .ambiente p {
+        font-size: 26px;
+    }
+
+    #folha-esquerda-cima {
+        width: 8rem;
+        top: 37.3rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 7rem;
+        top: 57.6rem;
+    }
+
+    #folha-direita-cima {
+        width: 8rem;
+        top: 38rem;
+    }
+
+    #folha-direita-baixo {
+        width: 8rem;
+        top: 56rem;
+    }
+
+    .materiais h3 {
+        font-size: 35px;
+    }
+
+    .materiais-itens p {
+        font-size: 24px;
+    }
+
+    .icons-materiais {
+        border-radius: 100px;
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .icons-materiais img {
+        width: 8rem;
+    }
+
+    #caixa {
+        width: 9rem;
+    }
+
+    #garrafa {
+        width: 10rem;
+    }
+
+    .agua h3 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+
+    .agua p {
+        font-size: 24px;
+    }
+
+    .contato h3 {
+        font-size: 35px;
+    }
+
+    .recicle h3 {
+        font-size: 35px;
+    }
+
+    .endereco img {
+        width: 3.5rem;
+    }
+
+    #folha5 {
+        width: 8rem;
+    }
+
+    #folha6 {
+        width: 8rem;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1109px) {
+    .inicio h2 {
+        font-size: 3.5rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .quem img {
+        width: 27rem;
+
+    }
+
+    .texto-quem {
+        font-size: 26px;
+        gap: 2.5rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 33px;
+        gap: 1rem;
+    }
+
+    .texto-quem p {
+        font-size: 25px;
+    }
+
+    .ambiente h3 {
+        font-size: 30px;
+    }
+
+    .ambiente p {
+        font-size: 26px;
+    }
+
+    #folha-esquerda-cima {
+        width: 8rem;
+        top: 37.3rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 7rem;
+        top: 57.6rem;
+    }
+
+    #folha-direita-cima {
+        width: 8rem;
+        top: 38rem;
+    }
+
+    #folha-direita-baixo {
+        width: 8rem;
+        top: 56rem;
+    }
+
+    .materiais h3 {
+        font-size: 35px;
+    }
+
+    .materiais-itens {
+        padding-top: 6rem;
+    }
+
+    .materiais-itens p {
+        font-size: 24px;
+        padding-top: 1.5rem;
+
+    }
+
+    .icons-materiais {
+        border-radius: 100px;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .icons-materiais img {
+        width: 6rem;
+    }
+
+    #caixa {
+        width: 8rem;
+    }
+
+    #garrafa {
+        width: 9rem;
+    }
+
+    .agua h3 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+
+    .agua p {
+        font-size: 24px;
+    }
+
+    .contato h3 {
+        font-size: 34px;
+    }
+
+    .recicle h3 {
+        font-size: 34px;
+    }
+
+    .endereco img {
+        width: 3.4rem;
+    }
+
+    #folha5 {
+        width: 8rem;
+    }
+
+    #folha6 {
+        width: 8rem;
+    }
+
+}
+
+@media (min-width: 942px) and (max-width: 991px) {
+
+    .inicio h2 {
+        font-size: 3.5rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .quem img {
+        width: 26rem;
+
+    }
+
+    .texto-quem {
+        gap: 2.5rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 30px;
+        gap: 1rem;
+    }
+
+    .texto-quem p {
+        font-size: 22px;
+    }
+
+    .ambiente h3 {
+        font-size: 30px;
+    }
+
+    .ambiente p {
+        font-size: 24px;
+    }
+
+    #folha-esquerda-cima {
+        width: 8rem;
+        top: 37.3rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 7rem;
+        top: 57.6rem;
+    }
+
+    #folha-direita-cima {
+        width: 8rem;
+        top: 38rem;
+    }
+
+    #folha-direita-baixo {
+        width: 8rem;
+        top: 56rem;
+    }
+
+    .materiais h3 {
+        font-size: 35px;
+    }
+
+    .materiais-itens {
+        padding-top: 6rem;
+    }
+
+    .materiais-itens p {
+        font-size: 24px;
+        padding-top: 1.5rem;
+
+    }
+
+    .icons-materiais {
+        border-radius: 100px;
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .icons-materiais img {
+        width: 6rem;
+    }
+
+    #caixa {
+        width: 8rem;
+    }
+
+    #garrafa {
+        width: 9rem;
+    }
+
+    .agua h3 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+
+    .agua p {
+        font-size: 24px;
+    }
+
+    .contato h3 {
+        font-size: 34px;
+    }
+
+    .recicle h3 {
+        font-size: 34px;
+    }
+
+    .endereco img {
+        width: 3.4rem;
+    }
+
+    #folha5 {
+        width: 7rem;
+    }
+
+    #folha6 {
+        width: 7rem;
+    }
+
+}
+
+@media (min-width: 770px) and (max-width: 941px) {
+
+    .inicio h2 {
+        font-size: 3.3rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .quem {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 40rem;
+    }
+
+    .quem img {
+        width: 26rem;
+
+    }
+
+    .texto-quem {
+        gap: 2.5rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 30px;
+        gap: 1rem;
+    }
+
+    .texto-quem p {
+        font-size: 22px;
+    }
+
+    .ambiente h3 {
+        font-size: 30px;
+    }
+
+    .ambiente p {
+        font-size: 22px;
+    }
+
+    #folha-esquerda-cima {
+        width: 8rem;
+        top: 34.3rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 7rem;
+        top: 54.6rem;
+    }
+
+    #folha-direita-cima {
+        width: 8rem;
+        top: 35rem;
+    }
+
+    #folha-direita-baixo {
+        width: 8rem;
+        top: 53rem;
+    }
+
+    .materiais {
+        padding-top: 3rem;
+        height: 58rem;
+    }
+
+    .materiais h3 {
+        font-size: 33px;
+    }
+
+
+    .materiais-itens {
+        padding-top: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .materiais-itens p {
+        font-size: 20px;
+    }
+
+    .icons-materiais {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .icons-materiais img {
+        width: 6rem;
+    }
+
+    #caixa {
+        width: 7rem;
+    }
+
+    #garrafa {
+        width: 8rem;
+    }
+
+
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 5rem;
+    }
+
+    #nuvem2 {
+        left: 11.5rem;
+        top: 85rem;
+        width: 8rem;
+    }
+
+    #nuvem3 {
+        top: 98rem;
+        left: 0rem;
+        width: 8rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 115rem;
+        width: 3.5rem;
+    }
+
+    .agua h3 {
+        font-size: 30px;
+    }
+
+    .agua p {
+        font-size: 22px;
+    }
+
+    .contato h3 {
+        font-size: 28px;
+    }
+
+    #whatsapp {
+        width: 45px;
+    }
+
+    #instagram {
+        width: 45px;
+    }
+
+    #email {
+        width: 50px;
+    }
+
+    .recicle h3 {
+        font-size: 28px;
+    }
+
+    .endereco p {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .endereco img {
+        width: 50px;
+    }
+
+    #folha5 {
+        width: 6.5rem;
+        bottom: 12rem;
+    }
+
+    #folha6 {
+        width: 6.5rem;
+        bottom: 12rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 769px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    .cabecalho {
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        padding-right: 0;
+        padding-left: 1rem;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .cabecalho a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        width: 4rem;
+    }
+
+    #logo {
+        width: 3.5rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 30px;
+    }
+
+    .cabecalho a {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .fundo-verde {
+        background-color: #28694a;
+    }
+
+    .menu img {
+        width: 2.2rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        font-size: 20px;
+        display: none;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .clicado {
+        display: flex;
+    }
+
+    ul a:hover {
+        transform: scale(1);
+        color: #f6f6f6;
+        font-weight: 400;
+    }
+
+    .inicio h2 {
+        font-size: 3.2rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .inicio a:hover {
+        transform: scale(1);
+    }
+
+    .quem {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 40rem;
+    }
+
+    .quem img {
+        width: 22rem;
+
+    }
+
+    .texto-quem {
+        gap: 2.5rem;
+        width: 32rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 28px;
+        gap: 1rem;
+    }
+
+    .texto-quem p {
+        font-size: 20px;
+    }
+
+    .ambiente h3 {
+        font-size: 23px;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+    }
+
+    .ambiente p {
+        font-size: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #folha-esquerda-cima {
+        width: 7rem;
+        top: 35.1rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 6rem;
+        top: 55.1rem;
+    }
+
+    #folha-direita-cima {
+        width: 7rem;
+        top: 35.5rem;
+    }
+
+    #folha-direita-baixo {
+        width: 7rem;
+        top: 53.6rem;
+    }
+
+    .materiais {
+        padding-top: 2.5rem;
+        height: 58rem;
+    }
+
+    .materiais h3 {
+        font-size: 28px;
+    }
+
+
+    .materiais-itens {
+        padding-top: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .materiais-itens p {
+        font-size: 20px;
+    }
+
+    .icons-materiais {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .icons-materiais img {
+        width: 5.5rem;
+    }
+
+    #caixa {
+        width: 6rem;
+    }
+
+    #garrafa {
+        width: 7rem;
+    }
+
+
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 5rem;
+    }
+
+    #nuvem2 {
+        left: 11.5rem;
+        top: 85rem;
+        width: 8rem;
+    }
+
+    #nuvem3 {
+        top: 98rem;
+        left: 0rem;
+        width: 8rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 115rem;
+        width: 3.5rem;
+    }
+
+    .agua h3 {
+        font-size: 28px;
+    }
+
+    .agua p {
+        font-size: 22px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contato {
+        height: 12rem;
+        padding-top: 1.5em;
+        width: 100%;
+    }
+
+    .contato h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #whatsapp {
+        width: 43px;
+    }
+
+    #instagram {
+        width: 42px;
+    }
+
+    #email {
+        width: 48px;
+    }
+
+    .contatos img:hover {
+        transform: scale(1);
+    }
+
+    .recicle {
+        height: 12rem;
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    .recicle h3 {
+        font-size: 28px;
+        padding-bottom: 2.5rem;
+    }
+
+    .endereco p {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .endereco img {
+        width: 3.5rem;
+    }
+
+    #folha5 {
+        width: 6.5rem;
+        bottom: 19.6rem;
+    }
+
+    #folha6 {
+        display: none;
+    }
+
+    #folha7 {
+        display: block;
+        width: 6.5rem;
+        right: 0;
+        bottom: 19.6rem;
+    }
+
+}
+
+@media (min-width: 510px) and (max-width: 599px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
+
+    .cabecalho {
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        padding-right: 0;
+        padding-left: 1rem;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .cabecalho a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        width: 4rem;
+    }
+
+    #logo {
+        width: 3.2rem;
+    }
+
+    .cabecalho h1 {
+        font-size: 26px;
+    }
+
+    .cabecalho a {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .fundo-verde {
+        background-color: #28694a;
+    }
+
+    .menu img {
+        width: 2.2rem;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100vw;
+        font-size: 20px;
+        display: none;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .clicado {
+        display: flex;
+    }
+
+    ul a:hover {
+        transform: scale(1);
+        color: #f6f6f6;
+        font-weight: 400;
+    }
+
+    .inicio {
+        background-image: url(../src/fundo/fundo-mobile.png);
+    }
+
+    .inicio h2 {
+        font-size: 3rem;
+    }
+
+    .inicio a {
+        width: 22rem;
+        font-size: 33px;
+    }
+
+    .inicio a:hover {
+        transform: scale(1);
+    }
+
+    .quem {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 40rem;
+    }
+
+    .quem img {
+        width: 22rem;
+
+    }
+
+    .texto-quem {
+        gap: 2.5rem;
+        width: 22rem;
+    }
+
+    .texto-quem h3 {
+        font-size: 28px;
+        gap: 1rem;
+    }
+
+    .texto-quem p {
+        font-size: 20px;
+    }
+
+    .ambiente {
+        height: 20rem;
+        padding: 2rem;
+    }
+
+    .ambiente h3 {
+        font-size: 22px;
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+    }
+
+    .ambiente p {
+        font-size: 19px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #folha-esquerda-cima {
+        width: 7rem;
+        top: 35.1rem;
+    }
+
+    #folha-esquerda-baixo {
+        width: 6rem;
+        top: 57.2rem;
+    }
+
+    #folha-direita-cima {
+        width: 7rem;
+        top: 35.5rem;
+    }
+
+    #folha-direita-baixo {
+        width: 7rem;
+        top: 55.7rem;
+    }
+
+    .materiais {
+        padding-top: 2.5rem;
+        height: 58rem;
+    }
+
+    .materiais h3 {
+        font-size: 26px;
+    }
+
+
+    .materiais-itens {
+        padding-top: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .materiais-itens p {
+        font-size: 20px;
+        padding-top: 1.5rem;
+    }
+
+    .icons-materiais {
+        width: 8rem;
+        height: 8rem;
+        
+    }
+
+    .icons-materiais img {
+        width: 5rem;
+    }
+
+    #caixa {
+        width: 5.5rem;
+    }
+
+    #garrafa {
+        width: 6.5rem;
+    }
+
+
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 5rem;
+    }
+
+    #nuvem2 {
+        left: 11.5rem;
+        top: 85rem;
+        width: 8rem;
+    }
+
+    #nuvem3 {
+        top: 98rem;
+        left: 0rem;
+        width: 8rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 115rem;
+        width: 3.5rem;
+    }
+
+    .agua h3 {
+        font-size: 23px;
+    }
+
+    .agua p {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .contato {
+        height: 12rem;
+        padding-top: 1.5em;
+        width: 100%;
+    }
+
+    .contato h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contatos img:hover {
+        transform: scale(1);
+    }
+
+    #whatsapp {
+        width: 43px;
+    }
+
+    #instagram {
+        width: 42px;
+    }
+
+    #email {
+        width: 48px;
+    }
+
+    .recicle {
+        height: 12rem;
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    .recicle h3 {
+        font-size: 28px;
+        padding-bottom: 2.5rem;
+    }
+
+    .endereco p {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .endereco img {
+        width: 3.5rem;
+    }
+
+    #folha5 {
+        width: 6.5rem;
+        bottom: 19.6rem;
+    }
+
+    #folha6 {
+    display: none;
+    }
+
+    #folha7 {
+        display: block;
+        width: 6.5rem;
+        right: 0;
+        bottom: 19.6rem;
     }
 }

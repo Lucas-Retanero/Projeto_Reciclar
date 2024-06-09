@@ -39,7 +39,7 @@ body {
     display: none;
 }
 
-nav {
+ul {
     display: flex;
     flex-direction: row;
     background-color: #28694a;
@@ -50,11 +50,11 @@ nav {
     gap: 3rem;
 }
 
-nav a {
+ul a {
     transition: 0.2s;
 }
 
-nav a:hover {
+ul a:hover {
     transform: scale(1.1);
     transition: 0.1s;
     color: #fff;
@@ -414,6 +414,11 @@ footer {
     bottom: 11rem;
 }
 
+#folha7 {
+    position: absolute;
+    display: none;
+}
+
 .topo {
     background-color: #21A366;
     position: fixed;
@@ -433,7 +438,7 @@ footer {
     width: 45px;
 }
 
-.show-button .topo {
+.mostrar-botao .topo {
     right: 20px;
     transition: 0.4s all;
 }
