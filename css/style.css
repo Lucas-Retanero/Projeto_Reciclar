@@ -122,14 +122,14 @@ ul a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 30px;
     gap: 3.5rem;
     text-align: justify;
     width: 40rem;
 }
 
 .texto-quem h3 {
-    font-size: 3rem;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
@@ -158,8 +158,8 @@ ul a:hover {
 }
 
 .ambiente p {
-    font-size: 27px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 250;
 }
 
 #folha-esquerda-cima {
@@ -218,7 +218,7 @@ ul a:hover {
 .materiais-itens p {
     text-transform: uppercase;
     color: #fff;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .icons-materiais {
@@ -275,9 +275,64 @@ ul a:hover {
     top: 96rem;
 }
 
-.indefinido {
+.decomposicao {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
     width: 100%;
-    height: 58rem;
+    height: 60rem;
+    align-items: center;
+}
+
+.rolagem {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    height: 20rem;
+}
+
+caption {
+    background-color: #075eb6;
+    border: solid #f6f6f6;
+    border-bottom: 0;
+    font-size: 35px;
+    padding: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+tbody {
+    background-color: #369cd7;
+}
+
+td, th {
+    border: solid #ffffff;
+    width: 20rem;
+    height: 10rem;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+
+#td-titulo {
+    color: #fff;
+    background-color: #075eb6;
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.icons-materiais-tabela {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1.5rem;
+    height: 9rem;
+    width: 9rem;
 }
 
 .agua {
@@ -299,7 +354,7 @@ ul a:hover {
 }
 
 .agua p {
-    font-size: 28px;
+    font-size: 30px;
     color: #fff;
     font-weight: 400;
     text-align: center;
