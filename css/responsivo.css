@@ -1221,12 +1221,15 @@
     .decomposicao {
         padding: 2rem;
         height: 60rem;
+
         ::-webkit-scrollbar {
             display: block;
         }
 
         ::-webkit-scrollbar-thumb {
             display: block;
+            width: 15px;
+            height: 5rem;
         }
     }
 
