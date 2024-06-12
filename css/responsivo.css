@@ -189,7 +189,7 @@
     }
 
     #caixa {
-        width: 6rem;
+        width: 5rem;
     }
 
     #garrafa {
@@ -205,7 +205,7 @@
 
     #nuvem2 {
         left: 11.5rem;
-        top: 85rem;
+        top: 84rem;
         width: 8rem;
     }
 
@@ -217,7 +217,7 @@
 
     #nuvem4 {
         right: 0;
-        top: 115rem;
+        top: 111rem;
         width: 3.5rem;
     }
 
@@ -255,6 +255,63 @@
         width: 6.5rem;
         right: 0;
         bottom: 19.6rem;
+    }
+
+    .decomposicao {
+        padding: 2rem;
+        height: 60rem;
+
+        ::-webkit-scrollbar {
+            display: block;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            display: block;
+        }
+    }
+
+    table {
+        height: 20rem;
+    }
+
+    caption {
+        background-color: #075eb6;
+        border: solid #f6f6f6;
+        border-bottom: 0;
+        font-size: 23px;
+        padding: 2rem;
+        color: #fff;
+        font-weight: 700;
+        text-align: start;
+    }
+
+    td,
+    th {
+        border: solid #ffffff;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        text-align: center;
+        padding: 2rem;
+        font-size: 19px;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #td-titulo {
+        color: #fff;
+        background-color: #075eb6;
+        font-size: 19px;
+        font-weight: 650;
+    }
+
+    .icons-materiais-tabela {
+        background-color: #fff;
+        border-radius: 100px;
+
+        height: 7rem;
+        width: 7rem;
     }
 
     footer {
@@ -405,6 +462,30 @@
     #folha-direita-baixo {
         width: 8rem;
         top: 56rem;
+    }
+
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 10rem;
+    }
+
+    #nuvem2 {
+        left: 35rem;
+        top: 75rem;
+        width: 13rem;
+    }
+
+    #nuvem3 {
+        top: 89rem;
+        left: 13rem;
+        width: 13rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 95rem;
+        width: 6rem;
     }
 
     .materiais h3 {
@@ -582,6 +663,30 @@
         width: 8rem;
     }
 
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 10rem;
+    }
+
+    #nuvem2 {
+        left: 35rem;
+        top: 75rem;
+        width: 13rem;
+    }
+
+    #nuvem3 {
+        top: 89rem;
+        left: 13rem;
+        width: 13rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 95rem;
+        width: 6rem;
+    }
+
 }
 
 @media (min-width: 942px) and (max-width: 991px) {
@@ -702,6 +807,30 @@
         width: 7rem;
     }
 
+    #nuvem1 {
+        left: 0px;
+        top: 70rem;
+        width: 10rem;
+    }
+
+    #nuvem2 {
+        left: 35rem;
+        top: 75rem;
+        width: 13rem;
+    }
+
+    #nuvem3 {
+        top: 89rem;
+        left: 13rem;
+        width: 13rem;
+    }
+
+    #nuvem4 {
+        right: 0;
+        top: 95rem;
+        width: 6rem;
+    }
+
 }
 
 @media (min-width: 770px) and (max-width: 941px) {
@@ -811,25 +940,25 @@
     #nuvem1 {
         left: 0px;
         top: 70rem;
-        width: 5rem;
+        width: 7rem;
     }
 
     #nuvem2 {
-        left: 11.5rem;
-        top: 85rem;
-        width: 8rem;
+        left: 35rem;
+        top: 80rem;
+        width: 10rem;
     }
 
     #nuvem3 {
         top: 98rem;
-        left: 0rem;
-        width: 8rem;
+        left: 5rem;
+        width: 10rem;
     }
 
     #nuvem4 {
         right: 0;
-        top: 115rem;
-        width: 3.5rem;
+        top: 95rem;
+        width: 5rem;
     }
 
     .agua h3 {
@@ -1072,21 +1201,76 @@
     }
 
     #nuvem2 {
-        left: 11.5rem;
-        top: 85rem;
+        left: 24rem;
+        top: 78rem;
         width: 8rem;
     }
 
     #nuvem3 {
-        top: 98rem;
+        top: 95rem;
         left: 0rem;
         width: 8rem;
     }
 
     #nuvem4 {
         right: 0;
-        top: 115rem;
-        width: 3.5rem;
+        top: 100rem;
+        width: 4rem;
+    }
+
+    .decomposicao {
+        padding: 2rem;
+        height: 60rem;
+        ::-webkit-scrollbar {
+            display: block;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            display: block;
+        }
+    }
+
+    table {
+        height: 20rem;
+    }
+
+    caption {
+        background-color: #075eb6;
+        border: solid #f6f6f6;
+        border-bottom: 0;
+        font-size: 24px;
+        padding: 2rem;
+        color: #fff;
+        font-weight: 700;
+        text-align: start;
+    }
+
+    td,
+    th {
+        border: solid #ffffff;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        text-align: center;
+        padding: 2rem;
+        font-size: 19px;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #td-titulo {
+        color: #fff;
+        background-color: #075eb6;
+        font-size: 20px;
+        font-weight: 650;
+    }
+
+    .icons-materiais-tabela {
+        background-color: #fff;
+        border-radius: 100px;
+        height: 8rem;
+        width: 8rem;
     }
 
     .agua h3 {
@@ -1346,7 +1530,7 @@
     .icons-materiais {
         width: 8rem;
         height: 8rem;
-        
+
     }
 
     .icons-materiais img {
@@ -1369,21 +1553,76 @@
     }
 
     #nuvem2 {
-        left: 11.5rem;
-        top: 85rem;
+        left: 18rem;
+        top: 80rem;
         width: 8rem;
     }
 
     #nuvem3 {
-        top: 98rem;
+        top: 95rem;
         left: 0rem;
         width: 8rem;
     }
 
     #nuvem4 {
         right: 0;
-        top: 115rem;
-        width: 3.5rem;
+        top: 105rem;
+        width: 4rem;
+    }
+
+    .decomposicao {
+        padding: 2rem;
+        height: 60rem;
+        ::-webkit-scrollbar {
+            display: block;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            display: block;
+        }
+    }
+
+    table {
+        height: 20rem;
+    }
+
+    caption {
+        background-color: #075eb6;
+        border: solid #f6f6f6;
+        border-bottom: 0;
+        font-size: 23px;
+        padding: 2rem;
+        color: #fff;
+        font-weight: 700;
+        text-align: start;
+    }
+
+    td,
+    th {
+        border: solid #ffffff;
+        width: 2rem;
+        height: 2rem;
+        vertical-align: middle;
+        text-align: center;
+        padding: 2rem;
+        font-size: 19px;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    #td-titulo {
+        color: #fff;
+        background-color: #075eb6;
+        font-size: 19px;
+        font-weight: 650;
+    }
+
+    .icons-materiais-tabela {
+        background-color: #fff;
+        border-radius: 100px;
+        height: 8rem;
+        width: 8rem;
     }
 
     .agua h3 {
@@ -1452,7 +1691,7 @@
     }
 
     #folha6 {
-    display: none;
+        display: none;
     }
 
     #folha7 {
