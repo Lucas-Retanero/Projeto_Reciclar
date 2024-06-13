@@ -1,4 +1,4 @@
-#Instalação e Execução da Aplicação
+# Instalação e Execução da Aplicação
 
 **Baixar os arquivos:**
 
@@ -16,33 +16,33 @@ Certifique-se de ter um navegador web instalado, como Google Chrome, Mozilla Fir
 
 Abra o arquivo index.html no navegador para visualizar a aplicação. Você pode fazer isso clicando com o botão direito no arquivo HTML e escolhendo "Abrir com" e selecionando o navegador instalado.
 
-#Funcionalidades do Site
+## Funcionalidades do Site
 
 __**O site "Projeto Reciclar" tem como objetivo conscientizar e facilitar a reciclagem de diferentes materiais. Aqui estão as principais seções e como cada parte do código contribui para a experiência do usuário:**__
 
 **Header e Menu de Navegação:**
 
-O cabeçalho (<header>) contém o logo e o título do projeto, facilitando o reconhecimento e a navegação pelo site. O menu de navegação (<nav>) permite ao usuário acessar facilmente diferentes seções do site através de âncoras que levam a partes específicas da página.
+O cabeçalho header contém o logo e o título do projeto, facilitando o reconhecimento e a navegação pelo site. O menu de navegação nav permite ao usuário acessar facilmente diferentes seções do site através de âncoras que levam a partes específicas da página.
 
 **Seções de Conteúdo:**
 
-Quem Somos (#quem): Apresenta informações sobre o projeto, seu propósito e impacto ambiental. A imagem e o texto explicativo estão organizados para fornecer uma visão geral clara.
+Quem Somos #quem: Apresenta informações sobre o projeto, seu propósito e impacto ambiental. A imagem e o texto explicativo estão organizados para fornecer uma visão geral clara.
 
-Materiais (#materiais): Lista os diferentes tipos de materiais que podem ser reciclados, acompanhados por ícones representativos e textos descritivos. Isso ajuda os usuários a identificar facilmente os materiais que podem ser reciclados e seu impacto ambiental.
+Materiais #materiais: Lista os diferentes tipos de materiais que podem ser reciclados, acompanhados por ícones representativos e textos descritivos. Isso ajuda os usuários a identificar facilmente os materiais que podem ser reciclados e seu impacto ambiental.
 
-Tabela de Destinação e Decomposição (#tabela): Uma tabela detalhada que mostra os materiais recicláveis, seu tempo de decomposição e seus destinos após a reciclagem. As imagens e textos descritivos dentro da tabela fornecem informações educativas importantes para os usuários.
+Tabela de Destinação e Decomposição #tabela: Uma tabela detalhada que mostra os materiais recicláveis, seu tempo de decomposição e seus destinos após a reciclagem. As imagens e textos descritivos dentro da tabela fornecem informações educativas importantes para os usuários.
 
-Seção sobre a Água (.agua): Aborda os impactos do lixo não reciclado na água, destacando a importância da reciclagem para a preservação dos recursos hídricos.
+Seção sobre a Água .agua: Aborda os impactos do lixo não reciclado na água, destacando a importância da reciclagem para a preservação dos recursos hídricos.
 
 Footer (Rodapé):
 
 Contém informações de contato e mídias sociais, permitindo que os usuários se conectem com o projeto através de diferentes plataformas. Também fornece o endereço físico para aqueles que desejam visitar o local pessoalmente.
 
-#Funcionalidades Adicionais:
+## Funcionalidades Adicionais:
 
 Botão de Voltar ao Topo: Localizado no canto inferior direito, permite ao usuário retornar rapidamente ao topo da página com um clique, melhorando a usabilidade.
 
-#Contribuição do Código
+## Contribuição do Código
 
 **HTML: Estrutura a página de forma semântica, utilizando tags apropriadas para cada seção e conteúdo.**
 
