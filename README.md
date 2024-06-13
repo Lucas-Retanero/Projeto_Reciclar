@@ -22,7 +22,7 @@ __**O site "Projeto Reciclar" tem como objetivo conscientizar e facilitar a reci
 
 **Header e Menu de Navegação:**
 
-O cabeçalho (<header>) contém o logo e o título do projeto, facilitando o reconhecimento e a navegação pelo site. O menu de navegação (<nav>) permite ao usuário acessar facilmente diferentes seções do site através de âncoras (<a href="#secao">) que levam a partes específicas da página.
+O cabeçalho (<header>) contém o logo e o título do projeto, facilitando o reconhecimento e a navegação pelo site. O menu de navegação (<nav>) permite ao usuário acessar facilmente diferentes seções do site através de âncoras que levam a partes específicas da página.
 
 **Seções de Conteúdo:**
 
