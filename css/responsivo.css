@@ -18,7 +18,7 @@
         justify-content: space-between;
     }
 
-    .cabecalho a {
+    .cabecalho div {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,7 +34,7 @@
         font-size: 21px;
     }
 
-    .cabecalho a {
+    .cabecalho div {
         cursor: pointer;
     }
 
