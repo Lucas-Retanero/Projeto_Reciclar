@@ -1395,7 +1395,11 @@
     }
 
     .menu {
-        display: inline;
+        display: flex;
+        height: 80px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
     }
 
     .fundo-verde {
@@ -1419,6 +1423,10 @@
 
     .clicado {
         display: flex;
+    }
+
+    .cabecalho div {
+        cursor: pointer;
     }
 
     ul a:hover {
