@@ -1,52 +1,61 @@
-# Instalação e Execução da Aplicação
+# ♻️ Projeto Reciclar
 
-**Baixar os arquivos:**
+Um site one-page (página única) focado em conscientização ambiental, detalhando a importância da reciclagem e o trabalho do "Projeto Reciclar". O site é totalmente responsivo e foi construído com HTML, CSS e JavaScript puros.
 
-Faça o download de todos os arquivos do projeto, incluindo HTML, CSS e JavaScript, disponíveis no repositório.
+---
 
-**Organização dos arquivos:**
+**Status do Projeto:** 🚀 Concluído 🚀
+---
 
-Coloque todos os arquivos dentro de um diretório principal, por exemplo, projeto-reciclar.
+## 💻 Sobre o Projeto
 
-**Configuração inicial:**
+O "Projeto Reciclar" é um site informativo que busca educar o público sobre o descarte correto de resíduos. A página apresenta a missão do projeto, detalha os materiais que podem ser reciclados e fornece informações cruciais sobre o tempo de decomposição e o destino de cada item.
 
-Certifique-se de ter um navegador web instalado, como Google Chrome, Mozilla Firefox ou Safari.
+O objetivo é centralizar informações e incentivar a ação, facilitando o contato com o projeto e a localização do ponto de coleta.
 
-**Abrir no navegador:**
+## ✨ Funcionalidades Principais
 
-Abra o arquivo index.html no navegador para visualizar a aplicação. Você pode fazer isso clicando com o botão direito no arquivo HTML e escolhendo "Abrir com" e selecionando o navegador instalado.
+Baseado no código-fonte, o site apresenta:
 
-## Funcionalidades do Site
+* **Menu de Navegação Rápida:** Links para as seções: "Quem Somos", "Materiais", "Destinação & Decomposição" e "Contato".
+* **Menu Responsivo:** Um menu "hambúrguer" funcional (`onclick="navbar()"`) para uma navegação limpa em dispositivos móveis.
+* **Guia Visual de Materiais:** Uma seção (`id="materiais"`) que lista 8 categorias de materiais aceitos, incluindo Papelão, Plásticos, Metais, Eletrônicos, Papéis, Óleo, Vidros e Baterias.
+* **Tabela Informativa:** Uma tabela detalhada (`id="tabela"`) que mostra o **Tempo de Decomposição** e o **Destino** de cada um dos materiais, ajudando na conscientização.
+* **Chamada para Ação (CTA):** Botões "Recicle Agora!" que levam o usuário diretamente para a localização do ponto de coleta no Google Maps.
+* **Links de Contato Direto:** Rodapé completo (`id="contato"`) com links funcionais para **WhatsApp**, **Instagram** e **Email**.
+* **Botão "Voltar ao Topo":** Melhora a usabilidade em uma página longa, permitindo ao usuário retornar ao início rapidamente.
 
-__**O site "Projeto Reciclar" tem como objetivo conscientizar e facilitar a reciclagem de diferentes materiais. Aqui estão as principais seções e como cada parte do código contribui para a experiência do usuário:**__
+## 🛠️ Tecnologias Utilizadas
 
-**Header e Menu de Navegação:**
+Este projeto foi construído do zero utilizando as principais tecnologias do desenvolvimento web:
 
-O cabeçalho header contém o logo e o título do projeto, facilitando o reconhecimento e a navegação pelo site. O menu de navegação nav permite ao usuário acessar facilmente diferentes seções do site através de âncoras que levam a partes específicas da página.
+* **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML):** Responsável pela estrutura e semântica de todas as seções do site ( `<header>`, `<main>`, `<section>`, `<footer>`, `<table>`, etc.).
+* **[CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS):** Usado para a estilização completa, incluindo a importação de fontes (Google Fonts), layout e o design responsivo (via `responsivo.css`).
+* **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript):** Utilizado para adicionar interatividade ao site, primariamente para a funcionalidade do menu hambúrguer (`script.js`).
 
-**Seções de Conteúdo:**
+## 🚀 Como Executar o Projeto
 
-Quem Somos #quem: Apresenta informações sobre o projeto, seu propósito e impacto ambiental. A imagem e o texto explicativo estão organizados para fornecer uma visão geral clara.
+Você não precisa de nada complexo! Como é um projeto web estático, basta seguir os passos:
 
-Materiais #materiais: Lista os diferentes tipos de materiais que podem ser reciclados, acompanhados por ícones representativos e textos descritivos. Isso ajuda os usuários a identificar facilmente os materiais que podem ser reciclados e seu impacto ambiental.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/Lophezz/Projeto_Reciclar.git](https://github.com/Lophezz/Projeto_Reciclar.git)
+    ```
 
-Tabela de Destinação e Decomposição #tabela: Uma tabela detalhada que mostra os materiais recicláveis, seu tempo de decomposição e seus destinos após a reciclagem. As imagens e textos descritivos dentro da tabela fornecem informações educativas importantes para os usuários.
+2.  **Entre na pasta do projeto:**
+    ```bash
+    cd Projeto_Reciclar
+    ```
 
-Seção sobre a Água .agua: Aborda os impactos do lixo não reciclado na água, destacando a importância da reciclagem para a preservação dos recursos hídricos.
+3.  **Abra o arquivo principal:**
+    Basta abrir o arquivo `index.html` diretamente no seu navegador de preferência (Chrome, Firefox, etc.).
 
-Footer (Rodapé):
+## 👥 Autores
 
-Contém informações de contato e mídias sociais, permitindo que os usuários se conectem com o projeto através de diferentes plataformas. Também fornece o endereço físico para aqueles que desejam visitar o local pessoalmente.
+Este projeto foi desenvolvido em dupla por:
 
-## Funcionalidades Adicionais:
+| [<img src="https://avatars.githubusercontent.com/u/107969085?v=4" width="100px;" alt="Foto do Matheus Lopes"/>](https://github.com/Lophezz) | [<img src="https://avatars.githubusercontent.com/u/158006612?v=4" width="100px;" alt="Foto do Lucas Retanero"/>]() |
+| :---: | :---: |
+| [**Matheus Lopes**](https://github.com/Lophezz) | [**Lucas Retanero**](https://github.com/Lucas-Retanero) |
 
-Botão de Voltar ao Topo: Localizado no canto inferior direito, permite ao usuário retornar rapidamente ao topo da página com um clique, melhorando a usabilidade.
-
-## Contribuição do Código
-
-**HTML: Estrutura a página de forma semântica, utilizando tags apropriadas para cada seção e conteúdo.**
-
-**CSS: Os arquivos de estilo (style.css, reset.css, responsivo.css) garantem que o site seja visualmente atraente e responsivo em diferentes dispositivos. Isso inclui definições de cores, layout e formatação dos elementos.**
-
-**JavaScript: O arquivo script.js contém funcionalidades dinâmicas, como a animação de navegação no menu (navbar()) e possíveis outras interações do usuário que podem não estar visíveis no código fornecido, mas são essenciais para a experiência interativa.**
-
+---
